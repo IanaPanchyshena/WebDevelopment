@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pacific Trails - Reservations</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="pacific.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="html5shiv.js"></script>
+	<![endif]--> 
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+		<h1>Pacific Trails Resort</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="yurts.html">Yurts</a></li>
+			<li><a href="activities.html">Activities</a></li>
+			<li><a href="reservations.html">Reservations</a></li>
+		</ul>
+	</nav>
+	<div id="homehero"></div>
+	<main>
+		<h2>Reservations at Pacific Trails</h2>
+		<h3>Contact Us</h3>
+		<form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+			<label for="myFName">*First Name:</label>
+			<input type="text" name="myFName" id="myFName" required="required">
+
+			<label for="myLName">*Last Name:</label>
+			<input type="text" name="myLName" id="myLName" required="required">
+
+			<label for="myEmail">*E-mail:</label>
+			<input type="email" name="myEmail" id="myEmail" required="required">
+
+			<label for="myPhone">*Phone:</label>
+			<input type="tel" name="myPhone" id="myPhone" required="required">
+
+			<label for="myDate">Arrival Date:</label>
+			<input type="date" name="myDate" id="myDate" required="required">
+
+			<label for="myNights">Nights:</label>
+			<input type="number" name="quantity" min="1" max="14" required="required">
+
+			<label for="myComments">*Comments:</label>
+			<textarea name="myComments" id="myComments" rows="2" cols="20" required="required"></textarea>
+
+			<input id="mySubmit" type="submit" value="Apply Now">
+		</form>
+        
+	</main>
+		<footer>
+			Copyright © 2016 Pacific Trails Resort<br>
+			<a href="mailto:yana@panchyshena.com">yana@panchyshena.com</a>
+		</footer>
+	</div>
+</body>
+</html>

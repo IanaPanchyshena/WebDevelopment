@@ -1,0 +1,42 @@
+body {
+	background-color: #6699FF;
+	color: #D5E3FF;
+	font-family: Verdana, Arial, sans-serif;
+}
+header {
+	background-color: #6699FF;
+	color: #003366;
+	font-family: serif;
+}
+h1 {
+	text-align: center;
+}
+nav {
+	font-weight: bold;
+	text-align: center;
+}
+.category {
+	font-weight: bold;
+	background-color: #6699FF;
+	color: #003366;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #667;
+}
+footer {
+	font-size: .70em;
+	font-style: italic;
+}
+footer nav {
+	text-align: left;
+}
+#wrapper {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 700px;
+	max-width: 1024px;
+}
+
+img {
+	border: none;
+}
